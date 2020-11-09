@@ -103,7 +103,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 
-The best two regresor model for Smealt is Length2 and Width.  This is also the best overall model as measured by adjusted R-squared.
+The best two regresor model for Smelt is Length2 and Width.  This is also the best overall model as measured by adjusted R-squared.
 
 # Discussion and Final Conclusion
 
