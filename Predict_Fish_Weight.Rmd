@@ -107,4 +107,6 @@ The best two regresor model for Smelt is Length2 and Width.  This is also the be
 
 # Discussion and Final Conclusion
 
+The best regression model for predicting the weight of Perch is the one using Heigth and Width.  For Bream, the best regression model for predicting the weight is using Length2 and Height.  Finally, the best regression model for predicting the weight of Smelt is Length2 and Width.  All of these are also the best regression models as measured by their individual adjusted R-squared.  
+
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
