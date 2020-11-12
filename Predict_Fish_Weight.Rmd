@@ -77,7 +77,7 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 
-The best two regresor model for Bream is Length2 and Heigth.  This is also the best overall model as measured by adjusted R-squared.
+The best two regresor model for Bream is Length2 and Heigth.  The best overall model would be a 3 regressor model using Length1, Heigth, and Width as measured by the adjusted R-squared.
   
 #  Smelt Model
 
@@ -103,10 +103,11 @@ library(car)
 subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2")
 ```
 
-The best two regresor model for Smelt is Length2 and Width.  This is also the best overall model as measured by adjusted R-squared.
+The best two regresor model for Smelt is Length2 and Width.  The best overall model as measured by the adjusted R-squared would be a four regressor model with Length1, Length2, Heigth, and Width. 
 
 # Discussion and Final Conclusion
 
-The best regression model for predicting the weight of Perch is the one using Heigth and Width.  For Bream, the best regression model for predicting the weight is using Length2 and Height.  Finally, the best regression model for predicting the weight of Smelt is Length2 and Width.  All of these are also the best regression models as measured by their individual adjusted R-squared.  
+The information acquired shows that the best 2 regression model for predicting the weight of Perch is Heigth and width. This is also the best overall model as measured by its adjusted R squared.  For Bream, the best two regressor model is Length2 and Heigth.  The best overall model as measured by its adjusted R squared would be a a 3 regressor model using Length1, Heigth and Width.  For Smelt, the best two regressor model would be Length2 and Width.  The best overall model as measured by its adjusted R squared would be a four regressor model using Length1, Length2, Heigth, and Width.     
+
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
